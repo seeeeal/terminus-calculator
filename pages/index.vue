@@ -381,7 +381,7 @@ export default defineComponent({
             'Discover the Terminus Calculator (BO6), the ultimate free tool for solving puzzles in Call of Duty: Black Ops 6 Zombies mode. Instantly decode terminal symbols and progress without delays!',
         },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/static/facicon.ico' }],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     });
 
     // 定义状态变量
