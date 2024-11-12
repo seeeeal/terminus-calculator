@@ -16,24 +16,28 @@
                 <img
                   src="https://i.ibb.co/5rDRw30/symbols-01.jpg"
                   alt="Value 0"
+                  :class="{ 'selected': selectedImages.x === 0 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 10)">
                 <img
                   src="https://i.ibb.co/PFmbJ00/symbols-02.jpg"
                   alt="Value 10"
+                  :class="{ 'selected': selectedImages.x === 10 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 11)">
                 <img
                   src="https://i.ibb.co/FqXw4mG/symbols-03.jpg"
                   alt="Value 11"
+                  :class="{ 'selected': selectedImages.x === 11 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 20)">
                 <img
                   src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg"
                   alt="Value 20"
+                  :class="{ 'selected': selectedImages.x === 20 }"
                 />
               </div>
 
@@ -41,12 +45,14 @@
                 <img
                   src="https://i.ibb.co/jfYKRth/symbols-05.jpg"
                   alt="Value 21"
+                  :class="{ 'selected': selectedImages.x === 21 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 22)">
                 <img
                   src="https://i.ibb.co/bXGth05/symbols-06.jpg"
                   alt="Value 22"
+                  :class="{ 'selected': selectedImages.x === 22 }"
                 />
               </div>
             </div>
@@ -65,24 +71,28 @@
                 <img
                   src="https://i.ibb.co/5rDRw30/symbols-01.jpg"
                   alt="Value 0"
+                  :class="{ 'selected': selectedImages.y === 0 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 10)">
                 <img
                   src="https://i.ibb.co/PFmbJ00/symbols-02.jpg"
                   alt="Value 10"
+                  :class="{ 'selected': selectedImages.y === 10 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 11)">
                 <img
                   src="https://i.ibb.co/FqXw4mG/symbols-03.jpg"
                   alt="Value 11"
+                  :class="{ 'selected': selectedImages.y === 11 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 20)">
                 <img
                   src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg"
                   alt="Value 20"
+                  :class="{ 'selected': selectedImages.y === 20 }"
                 />
               </div>
 
@@ -90,12 +100,14 @@
                 <img
                   src="https://i.ibb.co/jfYKRth/symbols-05.jpg"
                   alt="Value 21"
+                  :class="{ 'selected': selectedImages.y === 21 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 22)">
                 <img
                   src="https://i.ibb.co/bXGth05/symbols-06.jpg"
                   alt="Value 22"
+                  :class="{ 'selected': selectedImages.y === 22 }"
                 />
               </div>
             </div>
@@ -114,24 +126,28 @@
                 <img
                   src="https://i.ibb.co/5rDRw30/symbols-01.jpg"
                   alt="Value 0"
+                  :class="{ 'selected': selectedImages.z === 0 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 10)">
                 <img
                   src="https://i.ibb.co/PFmbJ00/symbols-02.jpg"
                   alt="Value 10"
+                  :class="{ 'selected': selectedImages.z === 10 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 11)">
                 <img
                   src="https://i.ibb.co/FqXw4mG/symbols-03.jpg"
                   alt="Value 11"
+                  :class="{ 'selected': selectedImages.z === 11 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 20)">
                 <img
                   src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg"
                   alt="Value 20"
+                  :class="{ 'selected': selectedImages.z === 20 }"
                 />
               </div>
 
@@ -139,12 +155,14 @@
                 <img
                   src="https://i.ibb.co/jfYKRth/symbols-05.jpg"
                   alt="Value 21"
+                  :class="{ 'selected': selectedImages.z === 21 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 22)">
                 <img
                   src="https://i.ibb.co/bXGth05/symbols-06.jpg"
                   alt="Value 22"
+                  :class="{ 'selected': selectedImages.z === 22 }"
                 />
               </div>
             </div>
@@ -370,8 +388,19 @@ export default defineComponent({
     const yValue = ref<number | null>(null);
     const zValue = ref<number | null>(null);
 
-    // 选择变量并更新值
-    function selectVariable(variable: string, value: number): void {
+    // 添加选中状态追踪
+    const selectedImages = ref({
+      x: null as number | null,
+      y: null as number | null,
+      z: null as number | null
+    });
+
+    // 修改选择变量的函数
+    function selectVariable(variable: 'x' | 'y' | 'z', value: number): void {
+      // 更新选中状态
+      selectedImages.value[variable] = value;
+
+      // 更新变量值
       if (variable === 'x') {
         xValue.value = value;
       } else if (variable === 'y') {
@@ -380,27 +409,13 @@ export default defineComponent({
         zValue.value = value;
       }
 
-      updateImageSelection(variable, value);
-
+      // 如果所有值都已选择，计算结果
       if (
         xValue.value !== null &&
         yValue.value !== null &&
         zValue.value !== null
       ) {
         calculateResults();
-      }
-    }
-
-    // 更新选中图片的样式
-    function updateImageSelection(variable: string, value: number): void {
-      const allImages = document.querySelectorAll(`#${variable}-variables img`);
-      allImages.forEach((img) => img.classList.remove('selected'));
-
-      const selectedImage = document.querySelector(
-        `#${variable}-variables img[alt="Value ${value}"]`
-      );
-      if (selectedImage) {
-        selectedImage.classList.add('selected');
       }
     }
 
@@ -433,6 +448,7 @@ export default defineComponent({
     // 返回方法以便在模板中调用
     return {
       selectVariable,
+      selectedImages, // 暴露给模板使用
     };
   },
 });

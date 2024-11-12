@@ -18,7 +18,7 @@
       <slot class="w-full" />
     </main>
     <footer class="w-full text-center py-4">
-      © Copyright 2024. terminuscalculator.cc All rights reserved.
+      © Copyright 2024. terminuscalculator.uk All rights reserved.
     </footer>
   </div>
 </template>
