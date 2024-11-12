@@ -389,17 +389,17 @@ export default defineComponent({
     const yValue = ref<number | null>(null);
     const zValue = ref<number | null>(null);
 
-    // 添加选中状态追踪
-    const selectedImages = ref({
+    // 使用响应式状态
+    const selectedImages = reactive({
       x: null as number | null,
       y: null as number | null,
-      z: null as number | null,
+      z: null as number | null
     });
 
     // 修改选择变量的函数
     function selectVariable(variable: 'x' | 'y' | 'z', value: number): void {
       // 更新选中状态
-      selectedImages.value[variable] = value;
+      selectedImages[variable] = value;
 
       // 更新变量值
       if (variable === 'x') {
