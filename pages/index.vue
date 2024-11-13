@@ -424,7 +424,7 @@
 export default defineComponent({
   setup() {
     useHead({
-      title: 'Terminus Code Calculator (BO6): Solve Zombies Mode Puzzles Instantly!',
+      title: 'Terminus Calculator (BO6): Solve Zombies Mode Puzzles Instantly!',
       meta: [
         {
           name: 'description',
