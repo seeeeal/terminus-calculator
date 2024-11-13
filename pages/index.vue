@@ -178,12 +178,82 @@
             Results
           </h3>
           <div class="flex flex-row justify-around mt-2">
-            <p id="result1" style="color: #386641">1° Num: /</p>
-            <p id="result2" style="color: #386641">2° Num: /</p>
-            <p id="result3" style="color: #386641">3° Num: /</p>
+            <p id="result1" style="color: #386641">1° Num: -</p>
+            <p id="result2" style="color: #386641">2° Num: -</p>
+            <p id="result3" style="color: #386641">3° Num: -</p>
           </div>
         </div>
       </div>
+
+            <!-- 计算原理部分 -->
+            <section class="mb-16">
+        <h2 class="text-3xl font-bold mb-6" style="color: #386641">
+          How Does the Terminus Code Calculator (BO6) Work?
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- 左侧说明文字 -->
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-4" style="color: #6a994e">
+              Calculation Process
+            </h3>
+            <div class="space-y-4" style="color: #6a994e">
+              <p>
+                The Terminus Code Calculator (BO6) uses a sophisticated
+                algorithm to process three key variables:
+              </p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>X Variable: Primary input from terminal display</li>
+                <li>Y Variable: Secondary confirmation code</li>
+                <li>Z Variable: System verification number</li>
+              </ul>
+              <p>
+                These variables are processed through our verified formula
+                matrix to generate the exact terminal codes needed for
+                progression.
+              </p>
+              <p class="mt-4 font-semibold">Formula Overview:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>1° Number = X * 2 + 11</li>
+                <li>2° Number = Z * 2 + Y - 5</li>
+                <li>3° Number = |Z + Y - X|</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 右侧示意图 -->
+          <div class="space-y-6">
+            <div
+              class="backdrop-blur-md rounded-xl p-4 border"
+              style="border-color: #386641; background-color: #f2e8cf"
+            >
+              <img
+                src="https://i.ibb.co/1mjWNV9/terminus-map.jpg"
+                alt="Terminus Code Calculator In-game Screenshot"
+                class="rounded-lg mb-4 mx-auto" style="width: 300px; height: auto;"
+              />
+              <p class="text-center italic" style="color: #6a994e">
+                Example of terminal interface in Call of Duty Zombies mode
+              </p>
+            </div>
+            <div
+              class="backdrop-blur-md rounded-xl p-6 border"
+              style="border-color: #386641; background-color: #f2e8cf"
+            >
+              <h4 class="text-lg font-semibold mb-3" style="color: #6a994e">
+                Pro Tips
+              </h4>
+              <ul class="list-disc pl-6 space-y-2" style="color: #6a994e">
+                <li>Always verify your input symbols carefully</li>
+                <li>Use screenshots to track multiple calculations</li>
+                <li>Share results with teammates for verification</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- 概述部分 -->
       <section class="mb-16">
@@ -298,7 +368,8 @@
               Is the Terminus Code Calculator (BO6) free to use?
             </h3>
             <p class="" style="color: #6a994e">
-              Yes, the Terminus Code Calculator (BO6) is completely free to use with no hidden fees or subscriptions required.
+              Yes, the Terminus Code Calculator (BO6) is completely free to use
+              with no hidden fees or subscriptions required.
             </p>
           </div>
 
@@ -310,7 +381,9 @@
               Which game versions does the Terminus Code Calculator support?
             </h3>
             <p class="" style="color: #6a994e">
-              The Terminus Code Calculator (BO6) currently supports the latest Black Ops 6 version, and we continuously update it with each game patch.
+              The Terminus Code Calculator (BO6) currently supports the latest
+              Black Ops 6 version, and we continuously update it with each game
+              patch.
             </p>
           </div>
 
@@ -322,7 +395,9 @@
               How accurate is the Terminus Code Calculator (BO6)?
             </h3>
             <p class="" style="color: #6a994e">
-              The Terminus Code Calculator's formulas are rigorously verified and tested by the BO6 gaming community to ensure 100% accuracy in all calculations.
+              The Terminus Code Calculator's formulas are rigorously verified
+              and tested by the BO6 gaming community to ensure 100% accuracy in
+              all calculations.
             </p>
           </div>
 
@@ -334,7 +409,9 @@
               How often is the Terminus Code Calculator (BO6) updated?
             </h3>
             <p class="" style="color: #6a994e">
-              The Terminus Code Calculator receives immediate updates after each BO6 patch or when new terminal combinations are discovered to ensure you always have the most current solutions.
+              The Terminus Code Calculator receives immediate updates after each
+              BO6 patch or when new terminal combinations are discovered to
+              ensure you always have the most current solutions.
             </p>
           </div>
 
@@ -346,7 +423,9 @@
               Can I use the Terminus Code Calculator (BO6) offline?
             </h3>
             <p class="" style="color: #6a994e">
-              Yes, once loaded, the Terminus Code Calculator works completely offline. We recommend taking screenshots of your results as backup during gameplay sessions.
+              Yes, once loaded, the Terminus Code Calculator works completely
+              offline. We recommend taking screenshots of your results as backup
+              during gameplay sessions.
             </p>
           </div>
 
@@ -358,7 +437,9 @@
               Is there a calculation limit in the Terminus Code Calculator?
             </h3>
             <p class="" style="color: #6a994e">
-              No, the Terminus Code Calculator (BO6) allows unlimited calculations. Use it as many times as needed during your gaming sessions.
+              No, the Terminus Code Calculator (BO6) allows unlimited
+              calculations. Use it as many times as needed during your gaming
+              sessions.
             </p>
           </div>
 
@@ -370,7 +451,8 @@
               Does the Terminus Code Calculator (BO6) work on all devices?
             </h3>
             <p class="" style="color: #6a994e">
-              Yes, the Terminus Code Calculator (BO6) is fully responsive and works seamlessly on desktop computers, tablets, and mobile phones.
+              Yes, the Terminus Code Calculator (BO6) is fully responsive and
+              works seamlessly on desktop computers, tablets, and mobile phones.
             </p>
           </div>
 
@@ -382,7 +464,8 @@
               How do I report bugs in the Terminus Code Calculator (BO6)?
             </h3>
             <p class="" style="color: #6a994e">
-              While the Terminus Code Calculator is thoroughly tested, you can report any issues to email to seeeeal@foxmail.com
+              While the Terminus Code Calculator is thoroughly tested, you can
+              report any issues to email to seeeeal@foxmail.com
             </p>
           </div>
 
@@ -391,10 +474,13 @@
             style="border-color: #386641; background-color: #f2e8cf"
           >
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Can I share my Terminus Code Calculator (BO6) results with other players?
+              Can I share my Terminus Code Calculator (BO6) results with other
+              players?
             </h3>
             <p class="" style="color: #6a994e">
-              Yes, you can easily share your calculation results with other players. We recommend taking screenshots or using our built-in sharing features to help your teammates.
+              Yes, you can easily share your calculation results with other
+              players. We recommend taking screenshots or using our built-in
+              sharing features to help your teammates.
             </p>
           </div>
         </div>
@@ -432,7 +518,13 @@ export default defineComponent({
             'Discover the Terminus Code Calculator (BO6), the ultimate free tool for solving puzzles in Call of Duty: Black Ops 6 Zombies mode. Instantly decode terminal symbols and progress without delays!',
         },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://i.ibb.co/f2n22kV/android-chrome-192x192.png' }],
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: 'https://i.ibb.co/f2n22kV/android-chrome-192x192.png',
+        },
+      ],
     });
 
     // 定义状态变量
@@ -444,7 +536,7 @@ export default defineComponent({
     const selectedImages = reactive({
       x: null as number | null,
       y: null as number | null,
-      z: null as number | null
+      z: null as number | null,
     });
 
     // 修改选择变量的函数
@@ -491,9 +583,7 @@ export default defineComponent({
         if (result2El)
           result2El.innerHTML = `2° Num: <strong>${result2}</strong>`;
         if (result3El)
-          result3El.innerHTML = `3° Num: <strong>${Math.abs(
-            result3
-          )}</strong>`;
+          result3El.innerHTML = `3° Num: <strong>${Math.abs(result3)}</strong>`;
       }
     }
 
