@@ -295,11 +295,10 @@
             style="border-color: #386641; background-color: #f2e8cf"
           >
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              How accurate are the calculations?
+              Is the Terminus Code Calculator (BO6) free to use?
             </h3>
             <p class="" style="color: #6a994e">
-              All calculations are thoroughly tested and verified by our
-              community of players.
+              Yes, the Terminus Code Calculator (BO6) is completely free to use with no hidden fees or subscriptions required.
             </p>
           </div>
 
@@ -308,11 +307,10 @@
             style="border-color: #386641; background-color: #f2e8cf"
           >
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Will this work with future updates?
+              Which game versions does the Terminus Code Calculator support?
             </h3>
             <p class="" style="color: #6a994e">
-              We regularly update the calculator to match game patches and
-              changes.
+              The Terminus Code Calculator (BO6) currently supports the latest Black Ops 6 version, and we continuously update it with each game patch.
             </p>
           </div>
 
@@ -321,11 +319,82 @@
             style="border-color: #386641; background-color: #f2e8cf"
           >
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Can I use it on my mobile phone?
+              How accurate is the Terminus Code Calculator (BO6)?
             </h3>
             <p class="" style="color: #6a994e">
-              Yes, the calculator is optimized for both desktop and mobile
-              devices.
+              The Terminus Code Calculator's formulas are rigorously verified and tested by the BO6 gaming community to ensure 100% accuracy in all calculations.
+            </p>
+          </div>
+
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
+              How often is the Terminus Code Calculator (BO6) updated?
+            </h3>
+            <p class="" style="color: #6a994e">
+              The Terminus Code Calculator receives immediate updates after each BO6 patch or when new terminal combinations are discovered to ensure you always have the most current solutions.
+            </p>
+          </div>
+
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
+              Can I use the Terminus Code Calculator (BO6) offline?
+            </h3>
+            <p class="" style="color: #6a994e">
+              Yes, once loaded, the Terminus Code Calculator works completely offline. We recommend taking screenshots of your results as backup during gameplay sessions.
+            </p>
+          </div>
+
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
+              Is there a calculation limit in the Terminus Code Calculator?
+            </h3>
+            <p class="" style="color: #6a994e">
+              No, the Terminus Code Calculator (BO6) allows unlimited calculations. Use it as many times as needed during your gaming sessions.
+            </p>
+          </div>
+
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
+              Does the Terminus Code Calculator (BO6) work on all devices?
+            </h3>
+            <p class="" style="color: #6a994e">
+              Yes, the Terminus Code Calculator (BO6) is fully responsive and works seamlessly on desktop computers, tablets, and mobile phones.
+            </p>
+          </div>
+
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
+              How do I report bugs in the Terminus Code Calculator (BO6)?
+            </h3>
+            <p class="" style="color: #6a994e">
+              While the Terminus Code Calculator is thoroughly tested, you can report any issues to email to seeeeal@foxmail.com
+            </p>
+          </div>
+
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
+              Can I share my Terminus Code Calculator (BO6) results with other players?
+            </h3>
+            <p class="" style="color: #6a994e">
+              Yes, you can easily share your calculation results with other players. We recommend taking screenshots or using our built-in sharing features to help your teammates.
             </p>
           </div>
         </div>
@@ -336,24 +405,6 @@
           Why Players Love the Terminus Calculator (BO6)
         </h2>
         <div class="grid md:grid-cols-2 gap-6">
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <p class="" style="color: #6a994e">Time-Saving</p>
-            <p class="mt-4" style="color: #6a994e">
-              Avoid spending hours solving complex puzzles.
-            </p>
-          </div>
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <p class="" style="color: #6a994e">Resource Efficient</p>
-            <p class="mt-4" style="color: #6a994e">
-              Save in-game essence (5000 per retry) by using precise codes.
-            </p>
-          </div>
           <div
             class="backdrop-blur-md rounded-xl p-6 border"
             style="border-color: #386641; background-color: #f2e8cf"
