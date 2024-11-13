@@ -178,9 +178,9 @@
             Results
           </h3>
           <div class="flex flex-row justify-around mt-2">
-            <p id="result1" style="color: #386641">1° Number: /</p>
-            <p id="result2" style="color: #386641">2° Number: /</p>
-            <p id="result3" style="color: #386641">3° Number: /</p>
+            <p id="result1" style="color: #386641">1° Num: /</p>
+            <p id="result2" style="color: #386641">2° Num: /</p>
+            <p id="result3" style="color: #386641">3° Num: /</p>
           </div>
         </div>
       </div>
@@ -373,12 +373,12 @@
 export default defineComponent({
   setup() {
     useHead({
-      title: 'Terminus Calculator (BO6): Solve Zombies Mode Puzzles Instantly!',
+      title: 'Terminus Code Calculator (BO6): Solve Zombies Mode Puzzles Instantly!',
       meta: [
         {
           name: 'description',
           content:
-            'Discover the Terminus Calculator (BO6), the ultimate free tool for solving puzzles in Call of Duty: Black Ops 6 Zombies mode. Instantly decode terminal symbols and progress without delays!',
+            'Discover the Terminus Code Calculator (BO6), the ultimate free tool for solving puzzles in Call of Duty: Black Ops 6 Zombies mode. Instantly decode terminal symbols and progress without delays!',
         },
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://i.ibb.co/f2n22kV/android-chrome-192x192.png' }],
@@ -436,11 +436,11 @@ export default defineComponent({
         const result3El = document.getElementById('result3');
 
         if (result1El)
-          result1El.innerHTML = `1° Number: <strong>${result1}</strong>`;
+          result1El.innerHTML = `1° Num: <strong>${result1}</strong>`;
         if (result2El)
-          result2El.innerHTML = `2° Number: <strong>${result2}</strong>`;
+          result2El.innerHTML = `2° Num: <strong>${result2}</strong>`;
         if (result3El)
-          result3El.innerHTML = `3° Number: <strong>${Math.abs(
+          result3El.innerHTML = `3° Num: <strong>${Math.abs(
             result3
           )}</strong>`;
       }
@@ -554,7 +554,7 @@ img.selected {
 
 .results-section p {
   color: #f2e8cf;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 /* 页脚 */
