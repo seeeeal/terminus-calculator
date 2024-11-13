@@ -495,9 +495,59 @@
             class="backdrop-blur-md rounded-xl p-6 border"
             style="border-color: #386641; background-color: #f2e8cf"
           >
-            <p class="" style="color: #6a994e">Community Support</p>
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">Community Support</h3>
             <p class="mt-4" style="color: #6a994e">
-              Built by fans for fans, making it a reliable resource.
+              Built by fans for fans, making it a reliable resource for the gaming community.
+            </p>
+          </div>
+
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">Time-Saving Solution</h3>
+            <p class="mt-4" style="color: #6a994e">
+              Instant calculations save precious gaming time, allowing players to focus on the action.
+            </p>
+          </div>
+
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">User-Friendly Interface</h3>
+            <p class="mt-4" style="color: #6a994e">
+              Simple, intuitive design makes solving complex puzzles accessible to all skill levels.
+            </p>
+          </div>
+
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">Mobile Compatibility</h3>
+            <p class="mt-4" style="color: #6a994e">
+              Access solutions on any device, perfect for quick reference during gameplay.
+            </p>
+          </div>
+
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">Regular Updates</h3>
+            <p class="mt-4" style="color: #6a994e">
+              Constantly updated to match game patches and new discoveries in the BO6 community.
+            </p>
+          </div>
+
+          <div
+            class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf"
+          >
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">100% Free Access</h3>
+            <p class="mt-4" style="color: #6a994e">
+              No hidden costs or premium features - all tools are freely available to every player.
             </p>
           </div>
         </div>
