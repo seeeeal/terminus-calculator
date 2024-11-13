@@ -5,250 +5,188 @@
         <div class="variables-container w-full mx-auto md:mx-0 md:w-full">
           <!-- X变量部分 -->
           <div class="variable bio-section" id="x-variables">
-            <h2
-              class="variable-title mx-auto text-center font-bold"
-              style="color: #bc4749"
-            >
-              X
+            <h2 class="variable-title mx-auto text-center font-bold" style="color: #bc4749">
+              {{ $t('calculator.variables.x') }}
             </h2>
             <div class="options-grid">
               <div class="image-option" @click="() => selectVariable('x', 0)">
-                <img
-                  src="https://i.ibb.co/5rDRw30/symbols-01.jpg"
-                  alt="X-0"
-                  :class="{ selected: selectedImages.x === 0 }"
-                />
+                <img src="https://i.ibb.co/5rDRw30/symbols-01.jpg" alt="X-0" 
+                  :class="{ selected: selectedImages.x === 0 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 10)">
-                <img
-                  src="https://i.ibb.co/PFmbJ00/symbols-02.jpg"
-                  alt="X-10"
-                  :class="{ selected: selectedImages.x === 10 }"
-                />
+                <img src="https://i.ibb.co/PFmbJ00/symbols-02.jpg" alt="X-10" 
+                  :class="{ selected: selectedImages.x === 10 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 11)">
-                <img
-                  src="https://i.ibb.co/FqXw4mG/symbols-03.jpg"
-                  alt="X-11"
-                  :class="{ selected: selectedImages.x === 11 }"
-                />
+                <img src="https://i.ibb.co/FqXw4mG/symbols-03.jpg" alt="X-11" 
+                  :class="{ selected: selectedImages.x === 11 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 20)">
-                <img
-                  src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg"
-                  alt="X-20"
-                  :class="{ selected: selectedImages.x === 20 }"
-                />
+                <img src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg" alt="X-20" 
+                  :class="{ selected: selectedImages.x === 20 }" />
               </div>
 
               <div class="image-option" @click="() => selectVariable('x', 21)">
-                <img
-                  src="https://i.ibb.co/jfYKRth/symbols-05.jpg"
-                  alt="X-21"
-                  :class="{ selected: selectedImages.x === 21 }"
-                />
+                <img src="https://i.ibb.co/jfYKRth/symbols-05.jpg" alt="X-21" 
+                  :class="{ selected: selectedImages.x === 21 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 22)">
-                <img
-                  src="https://i.ibb.co/bXGth05/symbols-06.jpg"
-                  alt="X-22"
-                  :class="{ selected: selectedImages.x === 22 }"
-                />
+                <img src="https://i.ibb.co/bXGth05/symbols-06.jpg" alt="X-22" 
+                  :class="{ selected: selectedImages.x === 22 }" />
               </div>
             </div>
           </div>
 
           <!-- Y变量部分 -->
           <div class="variable bio-section" id="y-variables">
-            <h2
-              class="variable-title mx-auto text-center font-bold"
-              style="color: #bc4749"
-            >
-              Y
+            <h2 class="variable-title mx-auto text-center font-bold" style="color: #bc4749">
+              {{ $t('calculator.variables.y') }}
             </h2>
             <div class="options-grid">
               <div class="image-option" @click="() => selectVariable('y', 0)">
-                <img
-                  src="https://i.ibb.co/5rDRw30/symbols-01.jpg"
-                  alt="Y-0"
-                  :class="{ selected: selectedImages.y === 0 }"
-                />
+                <img src="https://i.ibb.co/5rDRw30/symbols-01.jpg" alt="Y-0" 
+                  :class="{ selected: selectedImages.y === 0 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 10)">
-                <img
-                  src="https://i.ibb.co/PFmbJ00/symbols-02.jpg"
-                  alt="Y-10"
-                  :class="{ selected: selectedImages.y === 10 }"
-                />
+                <img src="https://i.ibb.co/PFmbJ00/symbols-02.jpg" alt="Y-10" 
+                  :class="{ selected: selectedImages.y === 10 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 11)">
-                <img
-                  src="https://i.ibb.co/FqXw4mG/symbols-03.jpg"
-                  alt="Y-11"
-                  :class="{ selected: selectedImages.y === 11 }"
-                />
+                <img src="https://i.ibb.co/FqXw4mG/symbols-03.jpg" alt="Y-11" 
+                  :class="{ selected: selectedImages.y === 11 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 20)">
-                <img
-                  src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg"
-                  alt="Y-20"
-                  :class="{ selected: selectedImages.y === 20 }"
-                />
+                <img src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg" alt="Y-20" 
+                  :class="{ selected: selectedImages.y === 20 }" />
               </div>
 
               <div class="image-option" @click="() => selectVariable('y', 21)">
-                <img
-                  src="https://i.ibb.co/jfYKRth/symbols-05.jpg"
-                  alt="Y-21"
-                  :class="{ selected: selectedImages.y === 21 }"
-                />
+                <img src="https://i.ibb.co/jfYKRth/symbols-05.jpg" alt="Y-21" 
+                  :class="{ selected: selectedImages.y === 21 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 22)">
-                <img
-                  src="https://i.ibb.co/bXGth05/symbols-06.jpg"
-                  alt="Y-22"
-                  :class="{ selected: selectedImages.y === 22 }"
-                />
+                <img src="https://i.ibb.co/bXGth05/symbols-06.jpg" alt="Y-22" 
+                  :class="{ selected: selectedImages.y === 22 }" />
               </div>
             </div>
           </div>
 
           <!-- Z变量部分 -->
           <div class="variable bio-section" id="z-variables">
-            <h2
-              class="variable-title mx-auto text-center font-bold"
-              style="color: #bc4749"
-            >
-              Z
+            <h2 class="variable-title mx-auto text-center font-bold" style="color: #bc4749">
+              {{ $t('calculator.variables.z') }}
             </h2>
             <div class="options-grid">
               <div class="image-option" @click="() => selectVariable('z', 0)">
-                <img
-                  src="https://i.ibb.co/5rDRw30/symbols-01.jpg"
-                  alt="Z-0"
-                  :class="{ selected: selectedImages.z === 0 }"
-                />
+                <img src="https://i.ibb.co/5rDRw30/symbols-01.jpg" alt="Z-0" 
+                  :class="{ selected: selectedImages.z === 0 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 10)">
-                <img
-                  src="https://i.ibb.co/PFmbJ00/symbols-02.jpg"
-                  alt="Z-10"
-                  :class="{ selected: selectedImages.z === 10 }"
-                />
+                <img src="https://i.ibb.co/PFmbJ00/symbols-02.jpg" alt="Z-10" 
+                  :class="{ selected: selectedImages.z === 10 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 11)">
-                <img
-                  src="https://i.ibb.co/FqXw4mG/symbols-03.jpg"
-                  alt="Z-11"
-                  :class="{ selected: selectedImages.z === 11 }"
-                />
+                <img src="https://i.ibb.co/FqXw4mG/symbols-03.jpg" alt="Z-11" 
+                  :class="{ selected: selectedImages.z === 11 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 20)">
-                <img
-                  src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg"
-                  alt="Z-20"
-                  :class="{ selected: selectedImages.z === 20 }"
-                />
+                <img src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg" alt="Z-20" 
+                  :class="{ selected: selectedImages.z === 20 }" />
               </div>
 
               <div class="image-option" @click="() => selectVariable('z', 21)">
-                <img
-                  src="https://i.ibb.co/jfYKRth/symbols-05.jpg"
-                  alt="Z-21"
-                  :class="{ selected: selectedImages.z === 21 }"
-                />
+                <img src="https://i.ibb.co/jfYKRth/symbols-05.jpg" alt="Z-21" 
+                  :class="{ selected: selectedImages.z === 21 }" />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 22)">
-                <img
-                  src="https://i.ibb.co/bXGth05/symbols-06.jpg"
-                  alt="Z-22"
-                  :class="{ selected: selectedImages.z === 22 }"
-                />
+                <img src="https://i.ibb.co/bXGth05/symbols-06.jpg" alt="Z-22" 
+                  :class="{ selected: selectedImages.z === 22 }" />
               </div>
             </div>
           </div>
         </div>
 
-        <div
-          id="results"
-          class="results-section w-full mb-16 mx-auto md:mx-0 md:w-full"
-          style="background-color: #f2e8cf"
-        >
+        <div id="results" class="results-section w-full mb-8 mx-auto md:mx-0 md:w-full" 
+          style="background-color: #f2e8cf">
           <h3 class="w-full mx-auto text-center" style="color: #bc4749">
-            Results
+            {{ $t('calculator.results.title') }}
           </h3>
           <div class="flex flex-row justify-around mt-2">
-            <p id="result1" style="color: #386641">1° Num: -</p>
-            <p id="result2" style="color: #386641">2° Num: -</p>
-            <p id="result3" style="color: #386641">3° Num: -</p>
+            <p id="result1" style="color: #386641">{{ $t('calculator.results.first_num') }}-</p>
+            <p id="result2" style="color: #386641">{{ $t('calculator.results.second_num') }}-</p>
+            <p id="result3" style="color: #386641">{{ $t('calculator.results.third_num') }}-</p>
           </div>
         </div>
       </div>
 
-            <!-- 计算原理部分 -->
-            <section class="mb-16">
+      <!-- 语言切换部分 -->
+      <section class="w-full mb-16">
+        <div class="max-w-7xl mx-auto">
+          <div class="flex flex-wrap justify-center gap-4">
+            <button v-for="locale in $i18n.locales" :key="locale.code"
+              @click="$i18n.setLocale(locale.code)"
+              class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300"
+              :class="[
+                $i18n.locale === locale.code 
+                  ? 'bg-[#386641] text-white' 
+                  : 'bg-[#f2e8cf] text-[#386641] hover:bg-[#6a994e] hover:text-white'
+              ]"
+              style="border: 2px solid #386641">
+              <span class="text-xl">{{ getFlag(locale.code) }}</span>
+              <span class="font-medium">{{ locale.name }}</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 计算原理部分 -->
+      <section class="mb-16">
         <h2 class="text-3xl font-bold mb-6" style="color: #386641">
-          How Does the Terminus Code Calculator (BO6) Work?
+          {{ $t('calculator.how_it_works.title') }}
         </h2>
         <div class="grid md:grid-cols-2 gap-8">
           <!-- 左侧说明文字 -->
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
+          <div class="backdrop-blur-md rounded-xl p-6 border" 
+            style="border-color: #386641; background-color: #f2e8cf">
             <h3 class="text-xl font-semibold mb-4" style="color: #6a994e">
-              Calculation Process
+              {{ $t('calculator.how_it_works.process_title') }}
             </h3>
             <div class="space-y-4" style="color: #6a994e">
-              <p>
-                The Terminus Code Calculator (BO6) uses a sophisticated
-                algorithm to process three key variables:
-              </p>
+              <p>{{ $t('calculator.how_it_works.description') }}</p>
               <ul class="list-disc pl-6 space-y-2">
-                <li>X Variable: Primary input from terminal display</li>
-                <li>Y Variable: Secondary confirmation code</li>
-                <li>Z Variable: System verification number</li>
+                <li>{{ $t('calculator.how_it_works.variables_list.x') }}</li>
+                <li>{{ $t('calculator.how_it_works.variables_list.y') }}</li>
+                <li>{{ $t('calculator.how_it_works.variables_list.z') }}</li>
               </ul>
-              <p>
-                These variables are processed through our verified formula
-                matrix to generate the exact terminal codes needed for
-                progression.
-              </p>
-              <p class="mt-4 font-semibold">Formula Overview:</p>
+              <p class="mt-4 font-semibold">{{ $t('calculator.how_it_works.formula_title') }}</p>
               <ul class="list-disc pl-6 space-y-2">
-                <li>1° Number = X * 2 + 11</li>
-                <li>2° Number = Z * 2 + Y - 5</li>
-                <li>3° Number = |Z + Y - X|</li>
+                <li>{{ $t('calculator.how_it_works.formulas.first') }}</li>
+                <li>{{ $t('calculator.how_it_works.formulas.second') }}</li>
+                <li>{{ $t('calculator.how_it_works.formulas.third') }}</li>
               </ul>
             </div>
           </div>
 
           <!-- 右侧示意图 -->
           <div class="space-y-6">
-            <div
-              class="backdrop-blur-md rounded-xl p-4 border"
-              style="border-color: #386641; background-color: #f2e8cf"
-            >
-              <img
-                src="https://i.ibb.co/1mjWNV9/terminus-map.jpg"
+            <div class="backdrop-blur-md rounded-xl p-4 border" 
+              style="border-color: #386641; background-color: #f2e8cf">
+              <img src="https://i.ibb.co/1mjWNV9/terminus-map.jpg" 
                 alt="Terminus Code Calculator In-game Screenshot"
-                class="rounded-lg mb-4 mx-auto" style="width: 300px; height: auto;"
-              />
+                class="rounded-lg mb-4 mx-auto" style="width: 300px; height: auto;" />
               <p class="text-center italic" style="color: #6a994e">
-                Example of terminal interface in Call of Duty Zombies mode
+                {{ $t('calculator.how_it_works.screenshot_caption') }}
               </p>
             </div>
-            <div
-              class="backdrop-blur-md rounded-xl p-6 border"
-              style="border-color: #386641; background-color: #f2e8cf"
-            >
+            <div class="backdrop-blur-md rounded-xl p-6 border" 
+              style="border-color: #386641; background-color: #f2e8cf">
               <h4 class="text-lg font-semibold mb-3" style="color: #6a994e">
-                Pro Tips
+                {{ $t('calculator.how_it_works.pro_tips.title') }}
               </h4>
               <ul class="list-disc pl-6 space-y-2" style="color: #6a994e">
-                <li>Always verify your input symbols carefully</li>
-                <li>Use screenshots to track multiple calculations</li>
-                <li>Share results with teammates for verification</li>
+                <li>{{ $t('calculator.how_it_works.pro_tips.tip1') }}</li>
+                <li>{{ $t('calculator.how_it_works.pro_tips.tip2') }}</li>
+                <li>{{ $t('calculator.how_it_works.pro_tips.tip3') }}</li>
               </ul>
             </div>
           </div>
@@ -258,19 +196,12 @@
       <!-- 概述部分 -->
       <section class="mb-16">
         <h2 class="text-3xl font-bold mb-6" style="color: #386641">
-          What is the Terminus Code Calculator (BO6)?
+          {{ $t('calculator.what_is.title') }}
         </h2>
-        <div
-          class="backdrop-blur-md rounded-xl p-6 border"
-          style="border-color: #386641; background-color: #f2e8cf"
-        >
+        <div class="backdrop-blur-md rounded-xl p-6 border" 
+          style="border-color: #386641; background-color: #f2e8cf">
           <p class="leading-relaxed" style="color: #6a994e">
-            The Terminus Calculator (BO6) is an indispensable online tool
-            designed for players of Call of Duty: Black Ops 6, specifically for
-            tackling the complex puzzles in the Zombies mode. Whether you're
-            decoding symbols or solving Easter egg challenges, this free tool
-            ensures fast, accurate solutions, enhancing your gameplay experience
-            without wasting resources.
+            {{ $t('calculator.what_is.description') }}
           </p>
         </div>
       </section>
@@ -278,40 +209,34 @@
       <!-- 特点部分 -->
       <section class="mb-16">
         <h2 class="text-3xl font-bold mb-6" style="color: #386641">
-          Key Features
+          {{ $t('calculator.features.title') }}
         </h2>
         <div class="grid md:grid-cols-3 gap-6">
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
+          <div class="backdrop-blur-md rounded-xl p-6 border" 
+            style="border-color: #386641; background-color: #f2e8cf">
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Free to Use
+              {{ $t('calculator.features.free.title') }}
             </h3>
             <p class="" style="color: #6a994e">
-              Access all features without any cost or subscription requirements.
+              {{ $t('calculator.features.free.description') }}
             </p>
           </div>
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
+          <div class="backdrop-blur-md rounded-xl p-6 border" 
+            style="border-color: #386641; background-color: #f2e8cf">
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Instant Solutions
+              {{ $t('calculator.features.instant.title') }}
             </h3>
             <p class="" style="color: #6a994e">
-              Get immediate results for your symbol combinations.
+              {{ $t('calculator.features.instant.description') }}
             </p>
           </div>
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
+          <div class="backdrop-blur-md rounded-xl p-6 border" 
+            style="border-color: #386641; background-color: #f2e8cf">
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Accurate Calculations
+              {{ $t('calculator.features.accurate.title') }}
             </h3>
             <p class="" style="color: #6a994e">
-              Precise results verified by the gaming community.
+              {{ $t('calculator.features.accurate.description') }}
             </p>
           </div>
         </div>
@@ -320,234 +245,140 @@
       <!-- 使用指南 -->
       <section class="mb-16">
         <h2 class="text-3xl font-bold mb-6" style="color: #386641">
-          How to Use Terminus Code Calculator (BO6)
+          {{ $t('calculator.how_to_use.title') }}
         </h2>
         <div class="space-y-4">
           <div class="flex items-center backdrop-blur-md rounded-xl p-0 border">
-            <span
-              class="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full mr-4"
-              style="background-color: #386641; color: #f2e8cf"
-              >1</span
-            >
+            <span class="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full mr-4"
+              style="background-color: #386641; color: #f2e8cf">1</span>
             <p class="" style="color: #6a994e">
-              Select your X variable from the first set of symbols
+              {{ $t('calculator.how_to_use.step1') }}
             </p>
           </div>
           <div class="flex items-center backdrop-blur-md rounded-xl p-0 border">
-            <span
-              class="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full mr-4"
-              style="background-color: #386641; color: #f2e8cf"
-              >2</span
-            >
+            <span class="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full mr-4"
+              style="background-color: #386641; color: #f2e8cf">2</span>
             <p class="" style="color: #6a994e">
-              Choose your Y variable from the second set
+              {{ $t('calculator.how_to_use.step2') }}
             </p>
           </div>
           <div class="flex items-center backdrop-blur-md rounded-xl p-0 border">
-            <span
-              class="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full mr-4"
-              style="background-color: #386641; color: #f2e8cf"
-              >3</span
-            >
+            <span class="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full mr-4"
+              style="background-color: #386641; color: #f2e8cf">3</span>
             <p class="" style="color: #6a994e">
-              Pick your Z variable from the third set
+              {{ $t('calculator.how_to_use.step3') }}
             </p>
           </div>
         </div>
       </section>
-
       <!-- FAQ部分 -->
       <section class="mb-16">
-        <h2 class="text-3xl font-bold mb-6" style="color: #386641">FAQs</h2>
+        <h2 class="text-3xl font-bold mb-6" style="color: #386641">{{ $t('calculator.faq.title') }}</h2>
         <div class="space-y-4">
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
+          <!-- 免费使用 -->
+          <div class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf">
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Is the Terminus Code Calculator (BO6) free to use?
+              {{ $t('calculator.faq.items.is_free.question') }}
             </h3>
             <p class="" style="color: #6a994e">
-              Yes, the Terminus Code Calculator (BO6) is completely free to use
-              with no hidden fees or subscriptions required.
+              {{ $t('calculator.faq.items.is_free.answer') }}
             </p>
           </div>
 
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
+          <!-- 支持版本 -->
+          <div class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf">
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Which game versions does the Terminus Code Calculator support?
+              {{ $t('calculator.faq.items.supported_versions.question') }}
             </h3>
             <p class="" style="color: #6a994e">
-              The Terminus Code Calculator (BO6) currently supports the latest
-              Black Ops 6 version, and we continuously update it with each game
-              patch.
+              {{ $t('calculator.faq.items.supported_versions.answer') }}
             </p>
           </div>
 
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
+          <!-- 准确性 -->
+          <div class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf">
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              How accurate is the Terminus Code Calculator (BO6)?
+              {{ $t('calculator.faq.items.accuracy.question') }}
             </h3>
             <p class="" style="color: #6a994e">
-              The Terminus Code Calculator's formulas are rigorously verified
-              and tested by the BO6 gaming community to ensure 100% accuracy in
-              all calculations.
+              {{ $t('calculator.faq.items.accuracy.answer') }}
             </p>
           </div>
 
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
+          <!-- 更新频率 -->
+          <div class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf">
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              How often is the Terminus Code Calculator (BO6) updated?
+              {{ $t('calculator.faq.items.update_frequency.question') }}
             </h3>
             <p class="" style="color: #6a994e">
-              The Terminus Code Calculator receives immediate updates after each
-              BO6 patch or when new terminal combinations are discovered to
-              ensure you always have the most current solutions.
+              {{ $t('calculator.faq.items.update_frequency.answer') }}
             </p>
           </div>
 
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
+          <!-- 离线使用 -->
+          <div class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf">
             <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Can I use the Terminus Code Calculator (BO6) offline?
+              {{ $t('calculator.faq.items.offline_use.question') }}
             </h3>
             <p class="" style="color: #6a994e">
-              Yes, once loaded, the Terminus Code Calculator works completely
-              offline. We recommend taking screenshots of your results as backup
-              during gameplay sessions.
-            </p>
-          </div>
-
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Is there a calculation limit in the Terminus Code Calculator?
-            </h3>
-            <p class="" style="color: #6a994e">
-              No, the Terminus Code Calculator (BO6) allows unlimited
-              calculations. Use it as many times as needed during your gaming
-              sessions.
-            </p>
-          </div>
-
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Does the Terminus Code Calculator (BO6) work on all devices?
-            </h3>
-            <p class="" style="color: #6a994e">
-              Yes, the Terminus Code Calculator (BO6) is fully responsive and
-              works seamlessly on desktop computers, tablets, and mobile phones.
-            </p>
-          </div>
-
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              How do I report bugs in the Terminus Code Calculator (BO6)?
-            </h3>
-            <p class="" style="color: #6a994e">
-              While the Terminus Code Calculator is thoroughly tested, you can
-              report any issues to email to seeeeal@foxmail.com
-            </p>
-          </div>
-
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
-              Can I share my Terminus Code Calculator (BO6) results with other
-              players?
-            </h3>
-            <p class="" style="color: #6a994e">
-              Yes, you can easily share your calculation results with other
-              players. We recommend taking screenshots or using our built-in
-              sharing features to help your teammates.
+              {{ $t('calculator.faq.items.offline_use.answer') }}
             </p>
           </div>
         </div>
       </section>
 
+      <!-- Why Love部分 -->
       <section class="mb-16">
         <h2 class="text-3xl font-bold mb-6" style="color: #386641">
-          Why Players Love the Terminus Code Calculator (BO6)
+          {{ $t('calculator.why_love.title') }}
         </h2>
         <div class="grid md:grid-cols-2 gap-6">
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">Community Support</h3>
+          <!-- 社区支持 -->
+          <div class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf">
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
+              {{ $t('calculator.why_love.reasons.community.title') }}
+            </h3>
             <p class="mt-4" style="color: #6a994e">
-              Built by fans for fans, making it a reliable resource for the gaming community.
+              {{ $t('calculator.why_love.reasons.community.description') }}
             </p>
           </div>
 
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">Time-Saving Solution</h3>
+          <!-- 节省时间 -->
+          <div class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf">
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
+              {{ $t('calculator.why_love.reasons.time_saving.title') }}
+            </h3>
             <p class="mt-4" style="color: #6a994e">
-              Instant calculations save precious gaming time, allowing players to focus on the action.
+              {{ $t('calculator.why_love.reasons.time_saving.description') }}
             </p>
           </div>
 
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">User-Friendly Interface</h3>
+          <!-- 用户友好 -->
+          <div class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf">
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
+              {{ $t('calculator.why_love.reasons.user_friendly.title') }}
+            </h3>
             <p class="mt-4" style="color: #6a994e">
-              Simple, intuitive design makes solving complex puzzles accessible to all skill levels.
+              {{ $t('calculator.why_love.reasons.user_friendly.description') }}
             </p>
           </div>
 
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">Mobile Compatibility</h3>
+          <!-- 移动兼容 -->
+          <div class="backdrop-blur-md rounded-xl p-6 border"
+            style="border-color: #386641; background-color: #f2e8cf">
+            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">
+              {{ $t('calculator.why_love.reasons.mobile.title') }}
+            </h3>
             <p class="mt-4" style="color: #6a994e">
-              Access solutions on any device, perfect for quick reference during gameplay.
-            </p>
-          </div>
-
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">Regular Updates</h3>
-            <p class="mt-4" style="color: #6a994e">
-              Constantly updated to match game patches and new discoveries in the BO6 community.
-            </p>
-          </div>
-
-          <div
-            class="backdrop-blur-md rounded-xl p-6 border"
-            style="border-color: #386641; background-color: #f2e8cf"
-          >
-            <h3 class="text-xl font-semibold mb-3" style="color: #6a994e">100% Free Access</h3>
-            <p class="mt-4" style="color: #6a994e">
-              No hidden costs or premium features - all tools are freely available to every player.
+              {{ $t('calculator.why_love.reasons.mobile.description') }}
             </p>
           </div>
         </div>
@@ -556,94 +387,93 @@
   </div>
 </template>
 
-<script lang="ts">
-export default defineComponent({
-  setup() {
-    useHead({
-      title: 'Terminus Calculator (BO6): Solve Zombies Mode Puzzles Instantly!',
-      meta: [
-        {
-          name: 'description',
-          content:
-            'Discover the Terminus Code Calculator (BO6), the ultimate free tool for solving puzzles in Call of Duty: Black Ops 6 Zombies mode. Instantly decode terminal symbols and progress without delays!',
-        },
-      ],
-      link: [
-        {
-          rel: 'icon',
-          type: 'image/x-icon',
-          href: 'https://i.ibb.co/f2n22kV/android-chrome-192x192.png',
-        },
-      ],
-    });
+<script setup>
+const { t } = useI18n()
 
-    // 定义状态变量
-    const xValue = ref<number | null>(null);
-    const yValue = ref<number | null>(null);
-    const zValue = ref<number | null>(null);
+useHead({
+  title: t('calculator.title'),
+  meta: [
+    {
+      name: 'description',
+      content: t('calculator.meta_description'),
+    },
+  ],
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: 'https://i.ibb.co/f2n22kV/android-chrome-192x192.png',
+    },
+  ],
+})
 
-    // 使用响应式状态
-    const selectedImages = reactive({
-      x: null as number | null,
-      y: null as number | null,
-      z: null as number | null,
-    });
+// 定义状态变量
+const xValue = ref(null)
+const yValue = ref(null)
+const zValue = ref(null)
 
-    // 修改选择变量的函数
-    function selectVariable(variable: 'x' | 'y' | 'z', value: number): void {
-      // 更新选中状态
-      selectedImages[variable] = value;
+// 使用响应式状态
+const selectedImages = reactive({
+  x: null,
+  y: null,
+  z: null,
+})
 
-      // 更新变量值
-      if (variable === 'x') {
-        xValue.value = value;
-      } else if (variable === 'y') {
-        yValue.value = value;
-      } else if (variable === 'z') {
-        zValue.value = value;
-      }
+// 修改选择变量的函数
+function selectVariable(variable, value) {
+  // 更新选中状态
+  selectedImages[variable] = value
 
-      // 如果所有值都已选择，计算结果
-      if (
-        xValue.value !== null &&
-        yValue.value !== null &&
-        zValue.value !== null
-      ) {
-        calculateResults();
-      }
-    }
+  // 更新变量值
+  if (variable === 'x') {
+    xValue.value = value
+  } else if (variable === 'y') {
+    yValue.value = value
+  } else if (variable === 'z') {
+    zValue.value = value
+  }
 
-    // 计算结果并更新 DOM
-    function calculateResults(): void {
-      if (
-        xValue.value !== null &&
-        yValue.value !== null &&
-        zValue.value !== null
-      ) {
-        const result1 = xValue.value * 2 + 11;
-        const result2 = zValue.value * 2 + yValue.value - 5;
-        const result3 = zValue.value + yValue.value - xValue.value;
+  // 如果所有值都已选择，计算结果
+  if (xValue.value !== null && yValue.value !== null && zValue.value !== null) {
+    calculateResults()
+  }
+}
 
-        const result1El = document.getElementById('result1');
-        const result2El = document.getElementById('result2');
-        const result3El = document.getElementById('result3');
+// 计算结果并更新 DOM
+function calculateResults() {
+  if (xValue.value !== null && yValue.value !== null && zValue.value !== null) {
+    const result1 = xValue.value * 2 + 11
+    const result2 = zValue.value * 2 + yValue.value - 5
+    const result3 = zValue.value + yValue.value - xValue.value
 
-        if (result1El)
-          result1El.innerHTML = `1° Num: <strong>${result1}</strong>`;
-        if (result2El)
-          result2El.innerHTML = `2° Num: <strong>${result2}</strong>`;
-        if (result3El)
-          result3El.innerHTML = `3° Num: <strong>${Math.abs(result3)}</strong>`;
-      }
-    }
+    const result1El = document.getElementById('result1')
+    const result2El = document.getElementById('result2')
+    const result3El = document.getElementById('result3')
 
-    // 返回方法以便在模板中调用
-    return {
-      selectVariable,
-      selectedImages, // 暴露给模板使用
-    };
-  },
-});
+    if (result1El)
+      result1El.innerHTML = `${t('calculator.results.first_num')}<strong>${result1}</strong>`
+    if (result2El)
+      result2El.innerHTML = `${t('calculator.results.second_num')}<strong>${result2}</strong>`
+    if (result3El)
+      result3El.innerHTML = `${t('calculator.results.third_num')}<strong>${Math.abs(result3)}</strong>`
+  }
+}
+
+// 国旗表情符号映射
+const getFlag = (code) => {
+  const flags = {
+    'en': '🇺🇸', // 美国
+    'zh': '🇨🇳', // 中国
+    'es': '🇪🇸', // 西班牙
+    'fr': '🇫🇷', // 法国
+    'de': '🇩🇪', // 德国
+    'ru': '🇷🇺', // 俄罗斯
+    'ja': '🇯🇵', // 日本
+    'ar': '🇸🇦', // 沙特阿拉伯
+    'ko': '🇰🇷'  // 韩国
+  }
+  return flags[code] || ''
+}
 </script>
 
 <style scoped>

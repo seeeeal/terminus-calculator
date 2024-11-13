@@ -1,0 +1,163 @@
+{
+  "calculator": {
+    "title": "Terminus Calculator (BO6): Solve Zombies Mode Puzzles Instantly!",
+    "meta_description": "Discover the Terminus Code Calculator (BO6), the ultimate free tool for solving puzzles in Call of Duty: Black Ops 6 Zombies mode. Instantly decode terminal symbols and progress without delays!",
+    "variables": {
+      "x": "X",
+      "y": "Y",
+      "z": "Z"
+    },
+    "results": {
+      "title": "Results",
+      "first_num": "1° Num: ",
+      "second_num": "2° Num: ",
+      "third_num": "3° Num: "
+    },
+    "how_it_works": {
+      "title": "How Does the Terminus Code Calculator (BO6) Work?",
+      "process_title": "Calculation Process",
+      "description": "The Terminus Code Calculator (BO6) uses a sophisticated algorithm to process three key variables:",
+      "variables_list": {
+        "x": "X Variable: Primary input from terminal display",
+        "y": "Y Variable: Secondary confirmation code",
+        "z": "Z Variable: System verification number"
+      },
+      "formula_title": "Formula Overview:",
+      "formulas": {
+        "first": "1° Number = X * 2 + 11",
+        "second": "2° Number = Z * 2 + Y - 5",
+        "third": "3° Number = abs(Z + Y - X)"
+      },
+      "screenshot_caption": "Example of terminal interface in Call of Duty Zombies mode",
+      "pro_tips": {
+        "title": "Pro Tips",
+        "tip1": "Always verify your input symbols carefully",
+        "tip2": "Use screenshots to track multiple calculations",
+        "tip3": "Share results with teammates for verification"
+      }
+    },
+    "what_is": {
+      "title": "What is the Terminus Code Calculator (BO6)?",
+      "description": "The Terminus Calculator (BO6) is an indispensable online tool designed for players of Call of Duty: Black Ops 6, specifically for tackling the complex puzzles in the Zombies mode. Whether you're decoding symbols or solving Easter egg challenges, this free tool ensures fast, accurate solutions, enhancing your gameplay experience without wasting resources."
+    },
+    "features": {
+      "title": "Key Features",
+      "free": {
+        "title": "Free to Use",
+        "description": "Access all features without any cost or subscription requirements."
+      },
+      "instant": {
+        "title": "Instant Solutions",
+        "description": "Get immediate results for your symbol combinations."
+      },
+      "accurate": {
+        "title": "Accurate Calculations",
+        "description": "Precise results verified by the gaming community."
+      }
+    },
+    "how_to_use": {
+      "title": "How to Use Terminus Code Calculator (BO6)",
+      "step1": "Select your X variable from the first set of symbols",
+      "step2": "Choose your Y variable from the second set",
+      "step3": "Pick your Z variable from the third set"
+    },
+    "faq": {
+      "title": "FAQs",
+      "items": {
+        "is_free": {
+          "question": "Is the Terminus Code Calculator (BO6) free to use?",
+          "answer": "Yes, the Terminus Code Calculator (BO6) is completely free to use with no hidden fees or subscriptions required."
+        },
+        "supported_versions": {
+          "question": "Which game versions does the Terminus Code Calculator support?",
+          "answer": "The Terminus Code Calculator (BO6) currently supports the latest Black Ops 6 version, and we continuously update it with each game patch."
+        },
+        "accuracy": {
+          "question": "How accurate is the Terminus Code Calculator (BO6)?",
+          "answer": "The Terminus Code Calculator's formulas are rigorously verified and tested by the BO6 gaming community to ensure 100% accuracy in all calculations."
+        },
+        "update_frequency": {
+          "question": "How often is the Terminus Code Calculator (BO6) updated?",
+          "answer": "The Terminus Code Calculator receives immediate updates after each BO6 patch or when new terminal combinations are discovered to ensure you always have the most current solutions."
+        },
+        "offline_use": {
+          "question": "Can I use the Terminus Code Calculator (BO6) offline?",
+          "answer": "Yes, once loaded, the Terminus Code Calculator works completely offline. We recommend taking screenshots of your results as backup during gameplay sessions."
+        },
+        "calculation_limit": {
+          "question": "Is there a calculation limit in the Terminus Code Calculator?",
+          "answer": "No, the Terminus Code Calculator (BO6) allows unlimited calculations. Use it as many times as needed during your gaming sessions."
+        },
+        "device_compatibility": {
+          "question": "Does the Terminus Code Calculator (BO6) work on all devices?",
+          "answer": "Yes, the Terminus Code Calculator (BO6) is fully responsive and works seamlessly on desktop computers, tablets, and mobile phones."
+        },
+        "bug_report": {
+          "question": "How do I report bugs in the Terminus Code Calculator (BO6)?",
+          "answer": "While the Terminus Code Calculator is thoroughly tested, you can report any issues by email to: seeeeal[at]foxmail[dot]com"
+        },
+        "share_results": {
+          "question": "Can I share my Terminus Code Calculator (BO6) results with other players?",
+          "answer": "Yes, you can easily share your calculation results with other players. We recommend taking screenshots or using our built-in sharing features to help your teammates."
+        }
+      }
+    },
+    "why_love": {
+      "title": "Why Players Love the Terminus Code Calculator (BO6)",
+      "reasons": {
+        "community": {
+          "title": "Community Support",
+          "description": "Built by fans for fans, making it a reliable resource for the gaming community."
+        },
+        "time_saving": {
+          "title": "Time-Saving Solution",
+          "description": "Instant calculations save precious gaming time, allowing players to focus on the action."
+        },
+        "user_friendly": {
+          "title": "User-Friendly Interface",
+          "description": "Simple, intuitive design makes solving complex puzzles accessible to all skill levels."
+        },
+        "mobile": {
+          "title": "Mobile Compatibility",
+          "description": "Access solutions on any device, perfect for quick reference during gameplay."
+        },
+        "updates": {
+          "title": "Regular Updates",
+          "description": "Constantly updated to match game patches and new discoveries in the BO6 community."
+        },
+        "free_access": {
+          "title": "100% Free Access",
+          "description": "No hidden costs or premium features - all tools are freely available to every player."
+        }
+      }
+    },
+    "layout": {
+      "header": {
+        "title": "Terminus Calculator (BO6)",
+        "subtitle": "Your Solution to Zombies Mode Challenges - Select Values for x, y and z"
+      },
+      "footer": {
+        "contact": {
+          "title": "Contact Us",
+          "email_prefix": "Email:",
+          "description": "Feel free to reach out if you have any questions or suggestions about the Terminus Code Calculator (BO6)."
+        },
+        "privacy": {
+          "title": "Privacy Policy",
+          "intro": "At Terminus Code Calculator (BO6), we take your privacy seriously:",
+          "points": {
+            "data": "No personal data collection or storage",
+            "cookies": "No cookies or tracking mechanisms",
+            "local": "All calculations are performed locally in your browser",
+            "sharing": "No user information is shared with third parties",
+            "account": "No registration or account required"
+          }
+        },
+        "copyright": {
+          "text": "© Copyright 2024",
+          "rights": "- All rights reserved. The Terminus Code Calculator (BO6) is a free tool for the gaming community."
+        }
+      }
+    }
+  }
+}

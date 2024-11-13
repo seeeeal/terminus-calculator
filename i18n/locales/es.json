@@ -1,0 +1,163 @@
+{
+  "calculator": {
+    "title": "Calculadora Terminus (BO6): ¡Resuelve los puzzles del modo Zombis al instante!",
+    "meta_description": "Descubre la Calculadora de Códigos Terminus (BO6), la herramienta gratuita definitiva para resolver puzzles en el modo Zombis de Call of Duty: Black Ops 6. ¡Decodifica símbolos terminales y progresa sin demoras!",
+    "variables": {
+      "x": "X",
+      "y": "Y",
+      "z": "Z"
+    },
+    "results": {
+      "title": "Resultados",
+      "first_num": "1° Núm: ",
+      "second_num": "2° Núm: ",
+      "third_num": "3° Núm: "
+    },
+    "how_it_works": {
+      "title": "¿Cómo funciona la Calculadora de Códigos Terminus (BO6)?",
+      "process_title": "Proceso de Cálculo",
+      "description": "La Calculadora de Códigos Terminus (BO6) utiliza un algoritmo sofisticado para procesar tres variables clave:",
+      "variables_list": {
+        "x": "Variable X: Entrada principal de la pantalla terminal",
+        "y": "Variable Y: Código de confirmación secundario",
+        "z": "Variable Z: Número de verificación del sistema"
+      },
+      "formula_title": "Resumen de Fórmulas:",
+      "formulas": {
+        "first": "1° Número = X * 2 + 11",
+        "second": "2° Número = Z * 2 + Y - 5",
+        "third": "3° Número = abs(Z + Y - X)"
+      },
+      "screenshot_caption": "Ejemplo de interfaz terminal en el modo Zombis de Call of Duty",
+      "pro_tips": {
+        "title": "Consejos Pro",
+        "tip1": "Verifica siempre tus símbolos de entrada cuidadosamente",
+        "tip2": "Usa capturas de pantalla para seguir múltiples cálculos",
+        "tip3": "Comparte resultados con compañeros para verificación"
+      }
+    },
+    "what_is": {
+      "title": "¿Qué es la Calculadora de Códigos Terminus (BO6)?",
+      "description": "La Calculadora Terminus (BO6) es una herramienta en línea indispensable diseñada para jugadores de Call of Duty: Black Ops 6, específicamente para abordar los puzzles complejos en el modo Zombis. Ya sea que estés decodificando símbolos o resolviendo desafíos de Easter eggs, esta herramienta gratuita asegura soluciones rápidas y precisas, mejorando tu experiencia de juego sin desperdiciar recursos."
+    },
+    "features": {
+      "title": "Características Principales",
+      "free": {
+        "title": "Uso Gratuito",
+        "description": "Accede a todas las funciones sin ningún costo o requisito de suscripción."
+      },
+      "instant": {
+        "title": "Soluciones Instantáneas",
+        "description": "Obtén resultados inmediatos para tus combinaciones de símbolos."
+      },
+      "accurate": {
+        "title": "Cálculos Precisos",
+        "description": "Resultados precisos verificados por la comunidad de jugadores."
+      }
+    },
+    "how_to_use": {
+      "title": "Cómo Usar la Calculadora de Códigos Terminus (BO6)",
+      "step1": "Selecciona tu variable X del primer conjunto de símbolos",
+      "step2": "Elige tu variable Y del segundo conjunto",
+      "step3": "Selecciona tu variable Z del tercer conjunto"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "items": {
+        "is_free": {
+          "question": "¿Es gratuita la Calculadora de Códigos Terminus (BO6)?",
+          "answer": "Sí, la Calculadora de Códigos Terminus (BO6) es completamente gratuita sin costos ocultos ni suscripciones requeridas."
+        },
+        "supported_versions": {
+          "question": "¿Qué versiones del juego soporta la Calculadora de Códigos Terminus?",
+          "answer": "La Calculadora de Códigos Terminus (BO6) actualmente soporta la última versión de Black Ops 6, y la actualizamos continuamente con cada parche del juego."
+        },
+        "accuracy": {
+          "question": "¿Qué tan precisa es la Calculadora de Códigos Terminus (BO6)?",
+          "answer": "Las fórmulas de la Calculadora de Códigos Terminus son rigurosamente verificadas y probadas por la comunidad de BO6 para asegurar una precisión del 100% en todos los cálculos."
+        },
+        "update_frequency": {
+          "question": "¿Con qué frecuencia se actualiza la Calculadora de Códigos Terminus (BO6)?",
+          "answer": "La Calculadora de Códigos Terminus recibe actualizaciones inmediatas después de cada parche de BO6 o cuando se descubren nuevas combinaciones terminales para asegurar que siempre tengas las soluciones más actuales."
+        },
+        "offline_use": {
+          "question": "¿Puedo usar la Calculadora de Códigos Terminus (BO6) sin conexión?",
+          "answer": "Sí, una vez cargada, la Calculadora de Códigos Terminus funciona completamente sin conexión. Recomendamos tomar capturas de pantalla de tus resultados como respaldo durante las sesiones de juego."
+        },
+        "calculation_limit": {
+          "question": "¿Hay un límite de cálculos en la Calculadora de Códigos Terminus?",
+          "answer": "No, la Calculadora de Códigos Terminus (BO6) permite cálculos ilimitados. Úsala tantas veces como necesites durante tus sesiones de juego."
+        },
+        "device_compatibility": {
+          "question": "¿Funciona la Calculadora de Códigos Terminus (BO6) en todos los dispositivos?",
+          "answer": "Sí, la Calculadora de Códigos Terminus (BO6) es completamente responsiva y funciona perfectamente en computadoras de escritorio, tabletas y teléfonos móviles."
+        },
+        "bug_report": {
+          "question": "¿Cómo reporto errores en la Calculadora de Códigos Terminus (BO6)?",
+          "answer": "Aunque la Calculadora de Códigos Terminus está completamente probada, puedes reportar cualquier problema por correo a: seeeeal[at]foxmail[dot]com"
+        },
+        "share_results": {
+          "question": "¿Puedo compartir mis resultados de la Calculadora de Códigos Terminus (BO6) con otros jugadores?",
+          "answer": "Sí, puedes compartir fácilmente tus resultados de cálculo con otros jugadores. Recomendamos tomar capturas de pantalla o usar nuestras funciones de compartir integradas para ayudar a tus compañeros de equipo."
+        }
+      }
+    },
+    "why_love": {
+      "title": "Por Qué los Jugadores Aman la Calculadora de Códigos Terminus (BO6)",
+      "reasons": {
+        "community": {
+          "title": "Soporte Comunitario",
+          "description": "Construida por fans para fans, convirtiéndola en un recurso confiable para la comunidad de jugadores."
+        },
+        "time_saving": {
+          "title": "Solución que Ahorra Tiempo",
+          "description": "Los cálculos instantáneos ahorran valioso tiempo de juego, permitiendo a los jugadores concentrarse en la acción."
+        },
+        "user_friendly": {
+          "title": "Interfaz Amigable",
+          "description": "Diseño simple e intuitivo que hace que resolver puzzles complejos sea accesible para todos los niveles de habilidad."
+        },
+        "mobile": {
+          "title": "Compatibilidad Móvil",
+          "description": "Accede a las soluciones en cualquier dispositivo, perfecto para consultas rápidas durante el juego."
+        },
+        "updates": {
+          "title": "Actualizaciones Regulares",
+          "description": "Constantemente actualizada para coincidir con los parches del juego y nuevos descubrimientos en la comunidad de BO6."
+        },
+        "free_access": {
+          "title": "Acceso 100% Gratuito",
+          "description": "Sin costos ocultos ni funciones premium - todas las herramientas están disponibles gratuitamente para cada jugador."
+        }
+      }
+    },
+    "layout": {
+      "header": {
+        "title": "Calculadora Terminus (BO6)",
+        "subtitle": "Tu solución para los desafíos del modo Zombis - Selecciona valores para x, y y z"
+      },
+      "footer": {
+        "contact": {
+          "title": "Contáctanos",
+          "email_prefix": "Correo electrónico:",
+          "description": "No dudes en contactarnos si tienes preguntas o sugerencias sobre la Calculadora de Códigos Terminus (BO6)."
+        },
+        "privacy": {
+          "title": "Política de Privacidad",
+          "intro": "En la Calculadora de Códigos Terminus (BO6), nos tomamos tu privacidad en serio:",
+          "points": {
+            "data": "Sin recopilación ni almacenamiento de datos personales",
+            "cookies": "Sin cookies ni mecanismos de seguimiento",
+            "local": "Todos los cálculos se realizan localmente en tu navegador",
+            "sharing": "No se comparte información de usuarios con terceros",
+            "account": "No se requiere registro ni cuenta"
+          }
+        },
+        "copyright": {
+          "text": "© Copyright 2024",
+          "rights": "- Todos los derechos reservados. La Calculadora de Códigos Terminus (BO6) es una herramienta gratuita para la comunidad de jugadores."
+        }
+      }
+    }
+  }
+}

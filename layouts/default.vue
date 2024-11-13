@@ -5,12 +5,11 @@
         <div class="header max-w-7xl mx-auto">
           <a href="https://www.terminuscalculator.uk/">
             <h1 class="bio-title text-4xl font-bold" style="color: #bc4749">
-              Terminus Calculator (BO6)
+              {{ $t('calculator.layout.header.title') }}
             </h1>
           </a>
           <h2 class="bio-subtitle text-base mt-4" style="color: #bc4749">
-            Your Solution to Zombies Mode Challenges - Select Values for x, y
-            and z
+            {{ $t('calculator.layout.header.subtitle') }}
           </h2>
         </div>
       </div>
@@ -26,38 +25,30 @@
           <!-- Left Column -->
           <div>
             <h3 class="text-xl font-semibold mb-4" style="color: #386641">
-              Contact Us
+              {{ $t('calculator.layout.footer.contact.title') }}
             </h3>
             <div style="color: #386641">
               <p class="mb-2">
-                Email:
-                <a href="mailto:seeeeal@foxmail.com" class="hover:underline"
-                  >seeeeal@foxmail.com</a
-                >
+                {{ $t('calculator.layout.footer.contact.email_prefix') }}
+                <a href="mailto:seeeeal@foxmail.com" class="hover:underline">seeeeal@foxmail.com</a>
               </p>
-              <p>
-                Feel free to reach out if you have any questions or suggestions
-                about the Terminus Code Calculator (BO6).
-              </p>
+              <p>{{ $t('calculator.layout.footer.contact.description') }}</p>
             </div>
           </div>
 
           <!-- Right Column -->
           <div>
             <h3 class="text-xl font-semibold mb-4" style="color: #386641">
-              Privacy Policy
+              {{ $t('calculator.layout.footer.privacy.title') }}
             </h3>
             <div class="space-y-2" style="color: #386641">
-              <p>
-                At Terminus Code Calculator (BO6), we take your privacy
-                seriously:
-              </p>
+              <p>{{ $t('calculator.layout.footer.privacy.intro') }}</p>
               <ul class="list-disc pl-6 space-y-1">
-                <li>No personal data collection or storage</li>
-                <li>No cookies or tracking mechanisms</li>
-                <li>All calculations are performed locally in your browser</li>
-                <li>No user information is shared with third parties</li>
-                <li>No registration or account required</li>
+                <li>{{ $t('calculator.layout.footer.privacy.points.data') }}</li>
+                <li>{{ $t('calculator.layout.footer.privacy.points.cookies') }}</li>
+                <li>{{ $t('calculator.layout.footer.privacy.points.local') }}</li>
+                <li>{{ $t('calculator.layout.footer.privacy.points.sharing') }}</li>
+                <li>{{ $t('calculator.layout.footer.privacy.points.account') }}</li>
               </ul>
             </div>
           </div>
@@ -66,9 +57,9 @@
         <!-- Copyright Bar -->
         <div class="border-t pt-4" style="border-color: #386641">
           <div class="text-center" style="color: #386641">
-            © Copyright 2024 <a style="color: #bc4749" href="https://www.terminuscalculator.uk/">terminuscalculator.uk</a> - All rights reserved. The
-            Terminus Code Calculator (BO6) is a free tool for the gaming
-            community.
+            {{ $t('calculator.layout.footer.copyright.text') }}
+            <a style="color: #bc4749" href="https://www.terminuscalculator.uk/">terminuscalculator.uk</a>
+            {{ $t('calculator.layout.footer.copyright.rights') }}
           </div>
         </div>
       </div>

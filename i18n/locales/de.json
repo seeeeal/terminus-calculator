@@ -1,0 +1,163 @@
+{
+  "calculator": {
+    "title": "Terminus-Rechner (BO6): Lösen Sie Zombie-Modus-Rätsel sofort!",
+    "meta_description": "Entdecken Sie den Terminus-Code-Rechner (BO6), das ultimative kostenlose Tool zum Lösen von Rätseln im Zombie-Modus von Call of Duty: Black Ops 6. Entschlüsseln Sie Terminal-Symbole sofort und machen Sie Fortschritte ohne Verzögerungen!",
+    "variables": {
+      "x": "X",
+      "y": "Y",
+      "z": "Z"
+    },
+    "results": {
+      "title": "Ergebnisse",
+      "first_num": "1. Nummer: ",
+      "second_num": "2. Nummer: ",
+      "third_num": "3. Nummer: "
+    },
+    "how_it_works": {
+      "title": "Wie funktioniert der Terminus-Code-Rechner (BO6)?",
+      "process_title": "Berechnungsprozess",
+      "description": "Der Terminus-Code-Rechner (BO6) verwendet einen ausgeklügelten Algorithmus zur Verarbeitung von drei Schlüsselvariablen:",
+      "variables_list": {
+        "x": "X-Variable: Primäre Eingabe vom Terminal-Display",
+        "y": "Y-Variable: Sekundärer Bestätigungscode",
+        "z": "Z-Variable: System-Verifizierungsnummer"
+      },
+      "formula_title": "Formelübersicht:",
+      "formulas": {
+        "first": "1. Nummer = X * 2 + 11",
+        "second": "2. Nummer = Z * 2 + Y - 5",
+        "third": "3. Nummer = abs(Z + Y - X)"
+      },
+      "screenshot_caption": "Beispiel für Terminal-Interface im Call of Duty Zombies-Modus",
+      "pro_tips": {
+        "title": "Profi-Tipps",
+        "tip1": "Überprüfen Sie Ihre Eingabesymbole immer sorgfältig",
+        "tip2": "Verwenden Sie Screenshots zur Verfolgung mehrerer Berechnungen",
+        "tip3": "Teilen Sie Ergebnisse mit Teammitgliedern zur Überprüfung"
+      }
+    },
+    "what_is": {
+      "title": "Was ist der Terminus-Code-Rechner (BO6)?",
+      "description": "Der Terminus-Rechner (BO6) ist ein unverzichtbares Online-Tool für Spieler von Call of Duty: Black Ops 6, speziell entwickelt für die komplexen Rätsel im Zombie-Modus. Ob Sie Symbole entschlüsseln oder Easter-Egg-Herausforderungen lösen, dieses kostenlose Tool gewährleistet schnelle, präzise Lösungen und verbessert Ihr Spielerlebnis ohne Ressourcenverschwendung."
+    },
+    "features": {
+      "title": "Hauptfunktionen",
+      "free": {
+        "title": "Kostenlos nutzbar",
+        "description": "Zugriff auf alle Funktionen ohne Kosten oder Abonnement-Anforderungen."
+      },
+      "instant": {
+        "title": "Sofortige Lösungen",
+        "description": "Erhalten Sie sofortige Ergebnisse für Ihre Symbolkombinationen."
+      },
+      "accurate": {
+        "title": "Präzise Berechnungen",
+        "description": "Von der Gaming-Community verifizierte genaue Ergebnisse."
+      }
+    },
+    "how_to_use": {
+      "title": "Wie man den Terminus-Code-Rechner (BO6) verwendet",
+      "step1": "Wählen Sie Ihre X-Variable aus dem ersten Symbolsatz",
+      "step2": "Wählen Sie Ihre Y-Variable aus dem zweiten Satz",
+      "step3": "Wählen Sie Ihre Z-Variable aus dem dritten Satz"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": {
+        "is_free": {
+          "question": "Ist der Terminus-Code-Rechner (BO6) kostenlos nutzbar?",
+          "answer": "Ja, der Terminus-Code-Rechner (BO6) ist völlig kostenlos nutzbar, ohne versteckte Gebühren oder erforderliche Abonnements."
+        },
+        "supported_versions": {
+          "question": "Welche Spielversionen unterstützt der Terminus-Code-Rechner?",
+          "answer": "Der Terminus-Code-Rechner (BO6) unterstützt aktuell die neueste Black Ops 6-Version und wird kontinuierlich mit jedem Spiel-Update aktualisiert."
+        },
+        "accuracy": {
+          "question": "Wie genau ist der Terminus-Code-Rechner (BO6)?",
+          "answer": "Die Formeln des Terminus-Code-Rechners wurden von der BO6-Gaming-Community gründlich verifiziert und getestet, um 100% Genauigkeit bei allen Berechnungen zu gewährleisten."
+        },
+        "update_frequency": {
+          "question": "Wie oft wird der Terminus-Code-Rechner (BO6) aktualisiert?",
+          "answer": "Der Terminus-Code-Rechner erhält sofortige Updates nach jedem BO6-Patch oder wenn neue Terminal-Kombinationen entdeckt werden, um sicherzustellen, dass Sie immer die aktuellsten Lösungen haben."
+        },
+        "offline_use": {
+          "question": "Kann ich den Terminus-Code-Rechner (BO6) offline nutzen?",
+          "answer": "Ja, nach dem Laden funktioniert der Terminus-Code-Rechner vollständig offline. Wir empfehlen, Screenshots Ihrer Ergebnisse als Backup während der Spielsitzungen zu machen."
+        },
+        "calculation_limit": {
+          "question": "Gibt es ein Berechnungslimit im Terminus-Code-Rechner?",
+          "answer": "Nein, der Terminus-Code-Rechner (BO6) ermöglicht unbegrenzte Berechnungen. Nutzen Sie ihn so oft wie nötig während Ihrer Spielsitzungen."
+        },
+        "device_compatibility": {
+          "question": "Funktioniert der Terminus-Code-Rechner (BO6) auf allen Geräten?",
+          "answer": "Ja, der Terminus-Code-Rechner (BO6) ist vollständig responsiv und funktioniert nahtlos auf Desktop-Computern, Tablets und Mobiltelefonen."
+        },
+        "bug_report": {
+          "question": "Wie melde ich Fehler im Terminus-Code-Rechner (BO6)?",
+          "answer": "Während der Terminus-Code-Rechner gründlich getestet wurde, können Sie Probleme per E-Mail an: seeeeal[at]foxmail[dot]com melden."
+        },
+        "share_results": {
+          "question": "Kann ich meine Terminus-Code-Rechner (BO6) Ergebnisse mit anderen Spielern teilen?",
+          "answer": "Ja, Sie können Ihre Berechnungsergebnisse einfach mit anderen Spielern teilen. Wir empfehlen, Screenshots zu machen oder unsere integrierten Sharing-Funktionen zu nutzen, um Ihren Teammitgliedern zu helfen."
+        }
+      }
+    },
+    "why_love": {
+      "title": "Warum Spieler den Terminus-Code-Rechner (BO6) lieben",
+      "reasons": {
+        "community": {
+          "title": "Community-Unterstützung",
+          "description": "Von Fans für Fans entwickelt, eine verlässliche Ressource für die Gaming-Community."
+        },
+        "time_saving": {
+          "title": "Zeitsparende Lösung",
+          "description": "Sofortige Berechnungen sparen wertvolle Spielzeit, sodass sich Spieler auf die Action konzentrieren können."
+        },
+        "user_friendly": {
+          "title": "Benutzerfreundliche Oberfläche",
+          "description": "Einfaches, intuitives Design macht das Lösen komplexer Rätsel für alle Fähigkeitsstufen zugänglich."
+        },
+        "mobile": {
+          "title": "Mobile Kompatibilität",
+          "description": "Zugriff auf Lösungen auf jedem Gerät, perfekt für schnelle Referenz während des Spiels."
+        },
+        "updates": {
+          "title": "Regelmäßige Updates",
+          "description": "Kontinuierlich aktualisiert, um mit Spiel-Patches und neuen Entdeckungen in der BO6-Community Schritt zu halten."
+        },
+        "free_access": {
+          "title": "100% kostenloser Zugang",
+          "description": "Keine versteckten Kosten oder Premium-Funktionen - alle Tools sind für jeden Spieler kostenlos verfügbar."
+        }
+      }
+    },
+    "layout": {
+      "header": {
+        "title": "Terminus Rechner (BO6)",
+        "subtitle": "Ihre Lösung für Zombie-Modus-Herausforderungen - Wählen Sie Werte für x, y und z"
+      },
+      "footer": {
+        "contact": {
+          "title": "Kontakt",
+          "email_prefix": "E-Mail:",
+          "description": "Kontaktieren Sie uns gerne bei Fragen oder Vorschlägen zum Terminus Code Rechner (BO6)."
+        },
+        "privacy": {
+          "title": "Datenschutzerklärung",
+          "intro": "Beim Terminus Code Rechner (BO6) nehmen wir Ihren Datenschutz ernst:",
+          "points": {
+            "data": "Keine Erfassung oder Speicherung personenbezogener Daten",
+            "cookies": "Keine Cookies oder Tracking-Mechanismen",
+            "local": "Alle Berechnungen werden lokal in Ihrem Browser durchgeführt",
+            "sharing": "Keine Weitergabe von Benutzerinformationen an Dritte",
+            "account": "Keine Registrierung oder Konto erforderlich"
+          }
+        },
+        "copyright": {
+          "text": "© Copyright 2024",
+          "rights": "- Alle Rechte vorbehalten. Der Terminus Code Rechner (BO6) ist ein kostenloses Tool für die Gaming-Community."
+        }
+      }
+    }
+  }
+}
