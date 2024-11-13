@@ -15,28 +15,28 @@
               <div class="image-option" @click="() => selectVariable('x', 0)">
                 <img
                   src="https://i.ibb.co/5rDRw30/symbols-01.jpg"
-                  alt="Value 0"
+                  alt="X-0"
                   :class="{ selected: selectedImages.x === 0 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 10)">
                 <img
                   src="https://i.ibb.co/PFmbJ00/symbols-02.jpg"
-                  alt="Value 10"
+                  alt="X-10"
                   :class="{ selected: selectedImages.x === 10 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 11)">
                 <img
                   src="https://i.ibb.co/FqXw4mG/symbols-03.jpg"
-                  alt="Value 11"
+                  alt="X-11"
                   :class="{ selected: selectedImages.x === 11 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 20)">
                 <img
                   src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg"
-                  alt="Value 20"
+                  alt="X-20"
                   :class="{ selected: selectedImages.x === 20 }"
                 />
               </div>
@@ -44,14 +44,14 @@
               <div class="image-option" @click="() => selectVariable('x', 21)">
                 <img
                   src="https://i.ibb.co/jfYKRth/symbols-05.jpg"
-                  alt="Value 21"
+                  alt="X-21"
                   :class="{ selected: selectedImages.x === 21 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('x', 22)">
                 <img
                   src="https://i.ibb.co/bXGth05/symbols-06.jpg"
-                  alt="Value 22"
+                  alt="X-22"
                   :class="{ selected: selectedImages.x === 22 }"
                 />
               </div>
@@ -70,28 +70,28 @@
               <div class="image-option" @click="() => selectVariable('y', 0)">
                 <img
                   src="https://i.ibb.co/5rDRw30/symbols-01.jpg"
-                  alt="Value 0"
+                  alt="Y-0"
                   :class="{ selected: selectedImages.y === 0 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 10)">
                 <img
                   src="https://i.ibb.co/PFmbJ00/symbols-02.jpg"
-                  alt="Value 10"
+                  alt="Y-10"
                   :class="{ selected: selectedImages.y === 10 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 11)">
                 <img
                   src="https://i.ibb.co/FqXw4mG/symbols-03.jpg"
-                  alt="Value 11"
+                  alt="Y-11"
                   :class="{ selected: selectedImages.y === 11 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 20)">
                 <img
                   src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg"
-                  alt="Value 20"
+                  alt="Y-20"
                   :class="{ selected: selectedImages.y === 20 }"
                 />
               </div>
@@ -99,14 +99,14 @@
               <div class="image-option" @click="() => selectVariable('y', 21)">
                 <img
                   src="https://i.ibb.co/jfYKRth/symbols-05.jpg"
-                  alt="Value 21"
+                  alt="Y-21"
                   :class="{ selected: selectedImages.y === 21 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('y', 22)">
                 <img
                   src="https://i.ibb.co/bXGth05/symbols-06.jpg"
-                  alt="Value 22"
+                  alt="Y-22"
                   :class="{ selected: selectedImages.y === 22 }"
                 />
               </div>
@@ -125,28 +125,28 @@
               <div class="image-option" @click="() => selectVariable('z', 0)">
                 <img
                   src="https://i.ibb.co/5rDRw30/symbols-01.jpg"
-                  alt="Value 0"
+                  alt="Z-0"
                   :class="{ selected: selectedImages.z === 0 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 10)">
                 <img
                   src="https://i.ibb.co/PFmbJ00/symbols-02.jpg"
-                  alt="Value 10"
+                  alt="Z-10"
                   :class="{ selected: selectedImages.z === 10 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 11)">
                 <img
                   src="https://i.ibb.co/FqXw4mG/symbols-03.jpg"
-                  alt="Value 11"
+                  alt="Z-11"
                   :class="{ selected: selectedImages.z === 11 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 20)">
                 <img
                   src="https://i.ibb.co/TrNY7Qf/symbols-04.jpg"
-                  alt="Value 20"
+                  alt="Z-20"
                   :class="{ selected: selectedImages.z === 20 }"
                 />
               </div>
@@ -154,14 +154,14 @@
               <div class="image-option" @click="() => selectVariable('z', 21)">
                 <img
                   src="https://i.ibb.co/jfYKRth/symbols-05.jpg"
-                  alt="Value 21"
+                  alt="Z-21"
                   :class="{ selected: selectedImages.z === 21 }"
                 />
               </div>
               <div class="image-option" @click="() => selectVariable('z', 22)">
                 <img
                   src="https://i.ibb.co/bXGth05/symbols-06.jpg"
-                  alt="Value 22"
+                  alt="Z-22"
                   :class="{ selected: selectedImages.z === 22 }"
                 />
               </div>
@@ -188,7 +188,7 @@
       <!-- 概述部分 -->
       <section class="mb-16">
         <h2 class="text-3xl font-bold mb-6" style="color: #386641">
-          What is the Terminus Calculator (BO6)?
+          What is the Terminus Code Calculator (BO6)?
         </h2>
         <div
           class="backdrop-blur-md rounded-xl p-6 border"
@@ -250,7 +250,7 @@
       <!-- 使用指南 -->
       <section class="mb-16">
         <h2 class="text-3xl font-bold mb-6" style="color: #386641">
-          How to Use
+          How to Use Terminus Code Calculator (BO6)
         </h2>
         <div class="space-y-4">
           <div class="flex items-center backdrop-blur-md rounded-xl p-0 border">
@@ -402,7 +402,7 @@
 
       <section class="mb-16">
         <h2 class="text-3xl font-bold mb-6" style="color: #386641">
-          Why Players Love the Terminus Calculator (BO6)
+          Why Players Love the Terminus Code Calculator (BO6)
         </h2>
         <div class="grid md:grid-cols-2 gap-6">
           <div
