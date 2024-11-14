@@ -202,6 +202,10 @@
           style="border-color: #386641; background-color: #f2e8cf">
           <p class="leading-relaxed" style="color: #6a994e">
             {{ $t('calculator.what_is.description') }}
+            <br><br>
+            {{ $t('calculator.what_is.description_2') }}
+            <br><br>
+            {{ $t('calculator.what_is.description_3') }}
           </p>
         </div>
       </section>
@@ -386,7 +390,6 @@
     </div>
   </div>
 </template>
-
 <script setup>
 const { t } = useI18n()
 
@@ -455,15 +458,15 @@ function calculateResults() {
 // 国旗表情符号映射
 const getFlag = (code) => {
   const flags = {
-    'en': '🇺🇸', // 美国
-    'zh': '🇨🇳', // 中国
-    'es': '🇪🇸', // 西班牙
-    'fr': '🇫🇷', // 法国
-    'de': '🇩🇪', // 德国
-    'ru': '🇷🇺', // 俄罗斯
-    'ja': '🇯🇵', // 日本
-    'ar': '🇸🇦', // 沙特阿拉伯
-    'ko': '🇰🇷'  // 韩国
+    'en': '', // 美国
+    'zh': '', // 中国
+    'es': '', // 西班牙
+    'fr': '', // 法国
+    'de': '', // 德国
+    'ru': '', // 俄罗斯
+    'ja': '', // 日本
+    'ar': '', // 沙特阿拉伯
+    'ko': ''  // 韩国
   }
   return flags[code] || ''
 }
