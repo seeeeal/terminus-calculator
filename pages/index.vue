@@ -398,13 +398,6 @@ useHead({
       content: t('calculator.meta_description'),
     },
   ],
-  link: [
-    {
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: 'https://i.ibb.co/f2n22kV/android-chrome-192x192.png',
-    },
-  ],
 })
 
 // 定义状态变量
