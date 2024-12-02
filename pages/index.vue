@@ -401,6 +401,13 @@ useHead({
       content: t('calculator.meta_description'),
     },
   ],
+  script: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3797697942030369',
+      async: true,
+      crossorigin: 'anonymous'
+    }
+  ]
 })
 
 // 定义状态变量
