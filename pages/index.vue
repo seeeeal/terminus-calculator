@@ -106,12 +106,12 @@
           </div>
         </div>
 
-        <div id="results" class="results-section w-full mb-8 mx-auto md:mx-0 md:w-full" 
+        <div id="results" class="rounded-xl border border-[#386641] p-8 backdrop-blur-md w-full min-h-40 mb-8 mx-auto md:mx-0 md:w-full" 
           style="background-color: #f2e8cf">
-          <h3 class="w-full mx-auto text-center" style="color: #bc4749">
+          <h3 class=" w-full mx-auto text-center text-3xl" style="color: #bc4749">
             {{ $t('calculator.results.title') }}
           </h3>
-          <div class="flex flex-row justify-around mt-2">
+          <div class="flex flex-row justify-around mt-2 text-3xl">
             <p id="result1" style="color: #386641">{{ $t('calculator.results.first_num') }}-</p>
             <p id="result2" style="color: #386641">{{ $t('calculator.results.second_num') }}-</p>
             <p id="result3" style="color: #386641">{{ $t('calculator.results.third_num') }}-</p>
